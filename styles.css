@@ -1,11 +1,16 @@
 div {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 6%;
+    width: 960px;
 }
 
 div>div {
     border: black solid 1px;
-    height: 100px;
-    width: 100px;
+    box-sizing: border-box;
+    /* height: 30px;
+    width: 30px; */
+}
+
+div>div:hover {
+    background-color: gray;
 }
