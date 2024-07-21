@@ -2,14 +2,14 @@ div {
     display: flex;
     flex-wrap: wrap;
     width: 960px;
+    height: 960px;
 }
 
 div>div {
     border: black solid 1px;
     box-sizing: border-box;
-    /* height: 30px;
-    width: 30px; */
 }
+
 
 div>div:hover {
     background-color: gray;
